@@ -1,0 +1,84 @@
+body{
+	background: black url("../imgs/teste.jpeg");
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+}
+
+strong{
+	font-weight: 700;
+}
+
+.conteudo{
+	display: flex;
+    justify-content: center;	
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.container{
+	width: 260px;
+	height: 130px;
+}
+
+p{
+	font-size: 2em;
+}
+.formulario{
+	display: flex;
+	flex-direction: column;
+}
+
+.format_img{
+	margin-right: 8px;
+	 width:13px ;
+	 height: 13px;
+}
+
+.input_box{
+	background-color: white;
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+}
+
+.input_box input{
+	border: none;
+}
+
+.botao{
+	padding: 10px auto;
+	width: 255px;
+	height: 40px;
+	background-color: rgb(19, 214, 36);
+	border: none;
+	
+}
+.foot{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 10px;
+}
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width:100vw ;
+	height: 100vh;
+	overflow: auto; /*adciona scroll ou apagar o excedente*/
+	background-color: rgba(0,0,0,.5);
+}
+.content{
+	background-color: aliceblue;
+	margin: 25% auto;
+	padding: 20px;
+	border-radius: 5px;
+	width: 70VW;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}

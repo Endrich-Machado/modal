@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+<title>Page Title</title>
+<link rel="stylesheet" href="./styles/style.css">
+
+<body>
+	
+
+<div class="conteudo">
+
+	<div class="container">
+		<h4>Bem-vindo ao</h4>
+		<p>DIGITAL<strong>MIND</strong></p>		
+	</div>
+	<form id="form">
+		<div class="formulario">	
+				<div class="input_box">				
+					<img class="format_img" src="./imgs/usuario.jpg" >
+					<input id="login" type="text" placeholder="Login">
+				</div>	
+				<div class="input_box">
+					<img class="format_img" src="./imgs/chave.jpg" >
+					<input id="password" type="password" placeholder="Senha">					
+				</div>
+		</div>
+		
+		<input id="submit_button" class="botao" type="submit" value="Acessar">
+		<div style="cursor: pointer;" class="foot" id="modalbtn">ESQUECEU SUA SENHA</div>
+		
+	</form>
+</div>
+<div class="modal">
+	<div class="content">
+			<input type="e-mail" placeholder="Digite seu e-mail">
+			<button id="fecharModal">fechar</button>
+	</div>
+</div>
+</body>
+<script src="./scripts/form.js"></script>
+</html>
